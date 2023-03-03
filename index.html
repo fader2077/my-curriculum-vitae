@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"></html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>COVID-19</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="application/javascript">
+        alert('請使用1920*1080解析度來觀看 謝謝!');
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleString();
+
+        function blink()
+        {
+            //定義圖片的顯示和隱藏屬性
+            tp.style.visibility = (tp.style.visibility=="hidden")?"visible":"hidden";
+            //每0.5秒刷新一次
+            setTimeout("blink()",300);
+        }
+
+        function timeout()
+        {
+            //定義圖片的顯示和隱藏屬性
+            tp.style.visibility = (tp.style.visibility=="hidden")?"visible":"hidden";
+            //每0.5秒刷新一次
+            setTimeout("blink()",300);
+        }
+    </script>
+</head>
+<body onload="blink();">
+<style>
+    html{
+        height: 100%;
+    }
+
+    body{
+        background-image: url(img/EMERGENCY.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+</style>
+<p style="display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: relative;
+    width: 100%;
+    height: 60px;
+
+    /* Gray 700 */
+
+    background: #2b343b;
+    border: 1px solid rgba(214, 214, 214, 0.2);
+    box-sizing: border-box;">
+<h3 style="color: white; position: absolute; left: 2%; top: 1.4%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">COVID-19 Global Case  Dashboard</h3>
+<p style="position: absolute; color: white; left: 50%; top: 20px;">Date: <span id="datetime" style="position: absolute; color: white; left: 107%; top: 1px;"></span></p>
+<script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
+</p>
+
+<p style="position: absolute;
+    width: 77%;
+    height: 90%;
+    left: 26%;
+    top:11%;
+    opacity: 0.96;
+
+    background: #2b343b;
+    border: 1px solid rgba(214, 214, 214, 0.2);
+    box-sizing: border-box;">
+    <iframe src="https://ourworldindata.org/grapher/cumulative-deaths-and-cases-covid-19?tab=map&time=2021-12-21&country=" loading="lazy" style="position:absolute;top:1%;left:1%; width: 98%; height: 95%; border: 0px none;"></iframe>
+<h5 style="position: absolute; color: #FFFFFF; top: 96.4%; left: 27%; font-family: Arial, Helvetica, sans-serif;">Data sources:
+    The data on confirmed cases and confirmed deaths shown in these visualizations is updated daily and is published by Johns Hopkins University, the best available global dataset on the pandemic.
+    <br>
+    The data on testing was collected by us – more detail can be found <a href="https://ourworldindata.org/coronavirus#testing-for-covid-19" target="_blank" style="color: orange;">here.</a></h5>
+</p>
+<p style="position: absolute; top: 20px; left: 1920px; color: white;">Real Time</p>
+<p style="
+    position:absolute;
+    width: 19%;
+    height: 20%;
+    top: 11%;
+    left: 5%;
+
+    background: #2b343b;">
+    <iframe title="Coronavirus COVID-19 confirmed, deaths, recovered (Copy)" aria-label="表格" id="datawrapper-chart-riBJr" src="https://datawrapper.dwcdn.net/riBJr/1/" scrolling="no" frameborder="0" style="position: absolute; left: 2%; width: 0; min-width: 95% !important; border: none; height: 90%;" ></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+</p>
+<p style="position: absolute; width: 19%; height: 74%; top:31%; left:5%; background-color: #000000; ">
+<div style="position: absolute; top: 32%; left: 5.4%; width: 18%;"class="flourish-embed flourish-table" data-src="story/230195"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div id="tp" >
+    <ion-icon name="stopwatch-outline" style="position: absolute;top: 35.5px; left: 2000px; color: white;"></ion-icon>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 26%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 29%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 32%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 35%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 38%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 41%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 44%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 47%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 50%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 53%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 56%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 59%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 62%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 61%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 64%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 67%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 70%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 73%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 76%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 79%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 82%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 85%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 88%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 91%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 94%;
+            "/>
+    <img src="img/worning.jpg"
+         style="
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 102%;
+            left: 97%;
+            "/>
+</div><script>//這裡是圖片閃爍的部分 不要點開 很恐怖</script>
+</p>
+<div class="navigation">
+    <ul>
+        <li class="list active">
+            <a href="index.html">
+                <span class="icom"><ion-icon name="home-outline"></ion-icon></span>
+                <span class="list">Home</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="originOf.html">
+                <span class="icom"><ion-icon name="skull-outline"></ion-icon></span>
+                <span class="list">Origin of COVID-19</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="web.html">
+                <span class="icom"><ion-icon name="browsers-outline"></ion-icon></span>
+                <span class="list">Website</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="help.html">
+                <span class="icom"><ion-icon name="information-circle-outline"></ion-icon></span>
+                <span class="list">Help</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="about.html">
+                <span class="icom"><ion-icon name="people-outline"></ion-icon></span>
+                <span class="list">About us</span>
+            </a>
+        </li>
+        <li class="list">
+            <a href="fbpage.html">
+                <span class="icom"><ion-icon name="thumbs-up-outline"></ion-icon></span>
+                <span class="list">Like us</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    //add active class in selected tab
+    const list = document.querySelectorAll('.list');
+    function activeLink(){
+        list.forEach((item)=>
+            item.classList.remove('active'));
+        this.classList.add('active');
+    }
+    list.forEach((item)=>
+        item.addEventListener('click',activeLink));
+</script>
+</body>
